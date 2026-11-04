@@ -1,7 +1,8 @@
-Bibani Select Kunden-App V2
+Bibani Select Luxury Shopping App V3
 
-Alle Dateien aus diesem Ordner ins BESTEHENDE GitHub-Repository aminbibani/bibani-select-shop hochladen und gleichnamige Dateien ersetzen. Keine ZIP-Datei selbst hochladen.
-
-Funktionen: Kategorien, Produktsuche, Produktdetails, Varianten, Merkliste, lokaler Warenkorb, Shopify-Cart-Permalink fuer Checkout.
-
-WICHTIG: Shopify /products.json muss vom Browser ueber CORS erreichbar sein. Wenn nicht, werden Produkte nicht angezeigt und es braucht eine Storefront-API-Anbindung. Der Checkout-Link und die Preise/Verfuegbarkeit muessen mit echten Produkten getestet werden, bevor die App an Kunden geht. Es werden keine Zahlungen in GitHub Pages verarbeitet.
+1. ZIP entpacken. ALLE Dateien aus dem entpackten Ordner im bestehenden GitHub-Repository bibani-select-shop hochladen; vorhandene Dateien ersetzen. Nicht die ZIP selbst hochladen.
+2. GitHub Pages Deployment abwarten und Browser neu laden.
+3. Shopify-Produktabruf erfolgt aktuell ueber /products.json (oeffentlicher Shopify-Endpunkt). Dies ist KEINE verifizierte Storefront-API-Anbindung. CORS, Sichtbarkeit, Varianten, Checkout und reale Bestellungen muessen getestet werden.
+4. Kategorien Armbänder und Ohrringe sind separat. Automatische Kategorieerkennung erfolgt anhand Produktnamen, Produkttyp und Tags. Fuer korrekte Zuordnung eindeutige Shopify-Produkttitel/Typen verwenden.
+5. Der Warenkorb ist lokal im Browser; beim Checkout wird ein Shopify Cart Permalink erzeugt.
+6. GitHub Pages HTTPS-Zertifikat muss funktionieren, bevor die App fuer Kunden genutzt wird.
