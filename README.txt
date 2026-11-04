@@ -6,3 +6,5 @@ Bibani Select Luxury Shopping App V3
 4. Kategorien Armbänder und Ohrringe sind separat. Automatische Kategorieerkennung erfolgt anhand Produktnamen, Produkttyp und Tags. Fuer korrekte Zuordnung eindeutige Shopify-Produkttitel/Typen verwenden.
 5. Der Warenkorb ist lokal im Browser; beim Checkout wird ein Shopify Cart Permalink erzeugt.
 6. GitHub Pages HTTPS-Zertifikat muss funktionieren, bevor die App fuer Kunden genutzt wird.
+
+V4: bebilderte Kategorien aus echten Shopify-Produktfotos, visuelles Titelbild, Neuheiten-Karten, Cache-Version v4. Shopify-Produkte werden ueber /products.json abgerufen; Shopify Storefront API ist noch nicht konfiguriert. Bitte Checkout und Kategorisierung vor Kundenfreigabe testen. HTTPS ist zwingend erforderlich.
