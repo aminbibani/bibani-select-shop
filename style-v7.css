@@ -1,0 +1,143 @@
+/* BIBANI SELECT V7 — einheitliches Shop-Design in Schwarz & Gold
+   Wird zusätzlich zu style.css geladen. Bestehende App-Funktionen bleiben unverändert. */
+
+:root{
+  --bg:#090909;
+  --bg2:#11100e;
+  --panel:#171613;
+  --gold:#d5b36f;
+  --gold2:#f0d9a4;
+  --line:#80683d;
+  --text:#f7f2e8;
+  --muted:#bdb5a5;
+}
+html,body{background:#090909!important;color:var(--text)}
+body{background:radial-gradient(ellipse at 50% 0%,#1b1811 0%,#0c0b09 48%,#080808 100%)!important}
+.topline{background:#080807!important;color:#d8bd82!important;border-color:#66512f!important}
+header{background:rgba(8,8,7,.97)!important;border-bottom:1px solid #6d5732!important}
+.brand{color:#e4c47e!important}
+nav button{color:#e4c47e!important}
+nav a{color:#e4c47e!important}
+main{background:transparent!important}
+.hero-v5{background:#090909!important;border-bottom:1px solid #6d5732!important}
+.hero-v5 .hero-art{background:#0c0b09!important}
+.hero-v5 .hero-art:after{
+ background:linear-gradient(180deg,rgba(5,5,5,.08) 0%,rgba(5,5,5,.12) 35%,rgba(5,5,5,.76) 70%,#090909 100%)!important
+}
+.hero-v5 .hero-copy .eyebrow,.eyebrow{color:#d9bb7d!important}
+.hero-v5 .primary,.primary{
+ background:#11100e!important;
+ color:#e5c783!important;
+ border:1px solid #b29458!important;
+ border-radius:7px!important;
+ box-shadow:inset 0 0 0 1px rgba(255,255,255,.025),0 8px 24px #0007!important;
+ transition:background .2s,border-color .2s,transform .2s!important
+}
+.hero-v5 .primary:hover,.primary:hover{
+ background:linear-gradient(135deg,#d9bb7d,#b89555)!important;
+ color:#17130c!important;border-color:#f0d9a4!important;transform:translateY(-1px)
+}
+.primary span{color:inherit!important}
+.benefits{
+ background:#11100d!important;
+ border-top:1px solid #6c5734!important;
+ border-bottom:1px solid #6c5734!important;
+ color:#d9c18d!important
+}
+.collection{
+ background:linear-gradient(180deg,#11100d 0%,#090909 100%)!important;
+ border-bottom:1px solid #5e4c2e!important
+}
+.collection h2,.products h2,.shopcta h2{color:#f7f0e4!important}
+.collection-intro{color:#bdb6a8!important}
+.category-gallery{gap:15px!important}
+.category-tile{
+ background:linear-gradient(145deg,#1b1914,#0c0c0b)!important;
+ border:1px solid #947747!important;
+ border-radius:12px!important;
+ box-shadow:0 12px 30px #0008!important
+}
+.category-tile:hover{border-color:#f0d9a4!important;box-shadow:0 0 0 1px #d5b36f55,0 15px 34px #0009!important}
+.tile-photo{background:#100f0d!important}
+.tile-caption{
+ background:linear-gradient(100deg,#211c13,#0e0d0b)!important;
+ border-top:1px solid #5c492b!important
+}
+.tile-caption strong{color:#f0dfbb!important}
+.tile-caption small{color:#d1b779!important}
+.categories button{
+ background:linear-gradient(145deg,#191713,#0c0c0b)!important;
+ border:1px solid #80683d!important;
+ border-radius:8px!important;
+ color:#e6cb91!important;
+ box-shadow:0 8px 20px #0005!important
+}
+.categories button.active,.categories button:hover{
+ background:linear-gradient(135deg,#d9bb7d,#b18e50)!important;
+ color:#17130d!important;border-color:#f0d9a4!important
+}
+.categories button.active .cat-emoji,.categories button:hover .cat-emoji{color:#17130d!important}
+.products{
+ background:linear-gradient(180deg,#090909 0%,#11100d 100%)!important;
+ border-top:1px solid #66512f!important
+}
+.sectionhead>a{color:#e2c47f!important}
+.hint{color:#bcb4a5!important}
+.feature-card,.product{
+ background:linear-gradient(145deg,#1c1a15,#0d0d0c)!important;
+ border:1px solid #80683d!important;
+ border-radius:11px!important;
+ box-shadow:0 10px 26px #0007!important
+}
+.feature-card:hover,.product:hover{border-color:#e4c47e!important}
+.feature-card span,.product h3{color:#f3ecdf!important}
+.feature-card b,.price{color:#e4c47e!important}
+.product>img,.feature-card img{background:#11100d!important}
+.product-actions button:not(.heart),.cartrow button,.wishrow button{
+ background:#11100e!important;
+ color:#e5c783!important;
+ border:1px solid #a1844c!important;
+ border-radius:5px!important
+}
+.product-actions button:not(.heart):hover,.cartrow button:hover,.wishrow button:hover{
+ background:#d9bb7d!important;color:#17130d!important
+}
+.heart{border-color:#a1844c!important;color:#e5c783!important;background:#100f0d!important}
+.notice{background:#15130f!important;border:1px solid #80683d!important;border-radius:9px;color:#d2c8b6!important}
+.shopcta{
+ background:radial-gradient(ellipse at 50% 0%,#302516 0%,#15120d 40%,#090909 100%)!important;
+ border-top:1px solid #80683d!important
+}
+.shopcta p:not(.eyebrow){color:#c7beae!important}
+.tiny-gold{color:#e0c17c!important}
+footer{background:#070707!important;border-top:1px solid #80683d!important;color:#bdb5a5!important}
+footer strong{color:#e0c17c!important}
+footer a{color:#e0c17c!important}
+.mobile-bottom-v5{
+ background:rgba(8,8,7,.98)!important;
+ border-top:1px solid #80683d!important;
+ box-shadow:0 -8px 28px #0008!important
+}
+.mobile-bottom-v5 a,.mobile-bottom-v5 button{color:#e3c47e!important}
+.mobile-bottom-v5 small{color:#d2c29f!important}
+dialog{
+ background:linear-gradient(145deg,#1c1913,#0b0b0a)!important;
+ color:#f7f0e4!important;border:1px solid #a1844c!important;
+ border-radius:12px!important
+}
+.dialogtop{border-bottom:1px solid #57462b!important;padding-bottom:12px}
+.dialogtop button{color:#e4c47e!important}
+input,#productDetail select{
+ background:#0b0b0a!important;color:#f7f0e4!important;
+ border:1px solid #80683d!important;border-radius:6px!important
+}
+#cartTotal{color:#e4c47e!important}
+.cartrow,.wishrow{border-color:#5b492d!important}
+@media(max-width:700px){
+ .hero-v5 .hero-art:after{
+  background:linear-gradient(180deg,rgba(7,7,6,.02) 5%,rgba(7,7,6,.10) 34%,rgba(7,7,6,.72) 66%,#090909 100%)!important
+ }
+ .category-gallery{gap:10px!important}
+ .tile-caption{background:linear-gradient(100deg,#211c13,#0e0d0b)!important}
+ .product-grid,.featured-strip{gap:10px!important}
+}
